@@ -4,7 +4,6 @@ const initialState = {
     showChat: false,
 };
 
-
 const chatSlice = createSlice({
     name: 'chat',
     initialState,
