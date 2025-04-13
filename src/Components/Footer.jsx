@@ -11,7 +11,9 @@ const Footer = () => {
         <div className="flex justify-center h-96 px-16 
                         bg-white text-black gap-8 border-t-2 border-gray-300">
             <div className="text-6xl font-semibold pt-4">
-                <p>Shop with me</p>
+                <span>Shop</span>
+                <span className="text-[#FF6347]">with</span>
+                <span>Me</span>
             </div>
             <div>
                 <ul className="text-lg space-y-4 pt-2 w-56">
@@ -101,7 +103,7 @@ const Footer = () => {
             </div>
         </div>
         <div className="border-t-2 border-gray-300">
-            <p className="text-center text-lg py-4">© 2021 Edgistify. All Rights Reserved</p>
+            <p className="text-center text-lg py-4">© 2025 ShopwithMe. All Rights Reserved</p>
         </div>
     </div>
   )

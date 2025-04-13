@@ -53,13 +53,17 @@
 }
   
 @media (min-width: 768px) {
-    .menu ul {
+    .menu ul{
       flex-direction: row;
       gap: 2rem;
       font-size: 1.5rem;
     }
 }
-  
+
+.menu ul li {
+    display: flex;
+    align-items: center;
+}
 
 .menu ul li:nth-child(1) img{  
     width: 1.5rem;

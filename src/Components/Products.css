@@ -11,7 +11,7 @@
   
 @media (max-width: 768px) {
     .products {
-      padding-top: 24rem;
+      padding-top: 26rem;
     }
 }
 
@@ -74,6 +74,7 @@
     font-size: 1rem;
     background-color: royalblue;
     border-radius: 2rem;
+    padding: 0 0.5rem;
 }
 
 .addremovecart{
@@ -82,7 +83,6 @@
     right: 1rem;
     z-index: 10;
     display: flex;
-    
 }
 
 .addremovecart button:nth-child(1){
@@ -92,13 +92,16 @@
     font-size: 1rem; 
     border-radius: 50%;
     text-align: center;
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1.75rem;
+    height: 1.75rem;
 }
 .addremovecart span{
     color: royalblue;
     font-size: 1.5rem; 
     padding: 0 0.25rem;
+    width: 1.75rem;
+    height: 1.75rem;
+    text-align: center;
 }
 .addremovecart button:nth-child(3){
     background-color: white;
@@ -107,6 +110,6 @@
     font-size: 1rem; 
     border-radius: 50%;
     text-align: center;
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1.75rem;
+    height: 1.75rem;
 }
