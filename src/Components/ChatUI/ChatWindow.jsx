@@ -2,7 +2,7 @@ import React, { useEffect, useState, useRef } from 'react';
 import { useDispatch } from 'react-redux';
 import MessageBubble from './MessageBubble';
 import MessageInput from './MessageInput';
-import { hideWindow } from '../../store/ChatSlice';
+import { hideWindow } from '../../Store/ChatSlice';
 
 const ChatWindow = () => {
   const dispatch = useDispatch();

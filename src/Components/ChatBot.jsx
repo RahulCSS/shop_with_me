@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useSelector, useDispatch } from 'react-redux';
 import ChatWindow from "./ChatUI/ChatWindow";
-import { showWindow } from "../store/ChatSlice";
+import { showWindow } from "../Store/ChatSlice";
 
 const ChatBot = () => {
   const dispatch = useDispatch();
