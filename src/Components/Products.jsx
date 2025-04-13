@@ -1,6 +1,6 @@
 import React,{useEffect} from 'react'
 import { useDispatch, useSelector } from 'react-redux';
-import { addItem, removeItem, setProducts } from '../Store/CartSlice';
+import { addItem, removeItem, setProducts } from '../store/CartSlice';
 import './Products.css'
 
 const Products = () => {

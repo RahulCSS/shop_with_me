@@ -6,7 +6,7 @@ import { ShoppingCartOutlined,
          UserOutlined
         } from '@ant-design/icons'
 import { useSelector, useDispatch } from 'react-redux';
-import { removeItem, clearCart, addItem } from '../Store/CartSlice';
+import { removeItem, clearCart, addItem } from '../store/CartSlice';
 
 
 const NavBar = () => {
