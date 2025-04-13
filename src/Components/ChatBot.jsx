@@ -44,7 +44,7 @@ const ChatBot = () => {
 
       {/* Chat window */}
       <div
-        className={`absolute bottom-[0] right-[0] w-[22rem] max-w-sm shadow-xl rounded-lg transition-all duration-500 ease-in-out overflow-hidden ${
+        className={`absolute bottom-[1rem] right-[1rem] w-[22rem] max-w-sm shadow-xl rounded-lg transition-all duration-500 ease-in-out overflow-hidden ${
           showChatWindow
             ? "h-[600px] opacity-300"
             : "h-0 opacity-0 pointer-events-none"

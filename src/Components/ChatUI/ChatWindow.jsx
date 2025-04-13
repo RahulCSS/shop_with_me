@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import MessageBubble from './MessageBubble';
 import MessageInput from './MessageInput';
 import { hideWindow } from '../../store/ChatSlice';
@@ -25,7 +25,7 @@ const ChatWindow = () => {
       id: Date.now(),
       text,
       sender: 'user',
-      timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
+      timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' ,second: '2-digit'}),
     };
     setMessages((prev) => [...prev, newMsg]);
 
@@ -49,7 +49,7 @@ const ChatWindow = () => {
         id: Date.now() + 1,
         text: randomResponse(),
         sender: 'bot',
-        timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
+        timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit',second: '2-digit' }),
       }]);
     }, 1000);
   };

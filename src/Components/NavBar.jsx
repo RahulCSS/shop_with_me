@@ -12,7 +12,6 @@ import { removeItem, clearCart, addItem } from '../store/CartSlice';
 const NavBar = () => {
     const dispatch = useDispatch();
     const cartItems = useSelector(state => state.cart.items);
-    console.log(cartItems);
     const [isOpen, setIsOpen] = useState(false);
     const cartCount = cartItems.filter(item => item.quantity > 0).length;
 
